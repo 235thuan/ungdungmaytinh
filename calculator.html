@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="tinhcalculator.js"></script>
+    <link rel="stylesheet" href="phongcach.css">
+</head>
+<h1>Calculator</h1>
+
+<div class = title ></div>
+<table border="1">
+    <tr>
+        <td colspan="3"><input type="text" id="ketqua"/></td>
+        <td><input type="button" value="Xoa" onclick="xoa()"/> </td>
+    </tr>
+    <tr>
+
+        <td><input type="button" value="√" onclick="giatri('1')"/> </td>
+        <td><input type="button" value="2" onclick="giatri('2')"/> </td>
+        <td><input type="button" value="3" onclick="giatri('3')"/> </td>
+        <td><input type="button" value="/" onclick="giatri('/')"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="giatri('4')"/> </td>
+        <td><input type="button" value="5" onclick="giatri('5')"/> </td>
+        <td><input type="button" value="6" onclick="giatri('6')"/> </td>
+        <td><input type="button" value="-" onclick="giatri('-')"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="giatri('7')"/> </td>
+        <td><input type="button" value="8" onclick="giatri('8')"/> </td>
+        <td><input type="button" value="9" onclick="giatri('9')"/> </td>
+        <td><input type="button" value="+" onclick="giatri('+')"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="." onclick="giatri('.')"/> </td>
+        <td><input type="button" value="0" onclick="giatri('0')"/> </td>
+        <td><input type="button" value="=" onclick="tinhtoan()"/> </td>
+        <td><input type="button" value="*" onclick="giatri('*')"/> </td>
+    </tr>
+</table>
+<body>
+
+</body>
+</html>
